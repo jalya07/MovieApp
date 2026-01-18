@@ -39,7 +39,7 @@ namespace MovieApp.DAL.Configurations
                     },
                     new Director
                      {
-                        Id = 1,
+                        Id = 2,
                         Name = "Christopher Nolan",
                         Description = "An British-American filmarker",
                         Adress = "200 Hollywood",

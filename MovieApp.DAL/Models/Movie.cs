@@ -1,0 +1,13 @@
+﻿using System;
+namespace MovieApp.DAL.Models
+{
+	public class Movie:BaseEntity
+	{
+		public string Title { get; set; } = null!;
+		public DateTime ReleaseYear { get; set; }
+		public string Description { get; set; } =  null!;
+		public int Duration { get; set; }
+		public decimal Imdb { get; set; }
+	}
+}
+

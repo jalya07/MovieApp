@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace MovieApp.DAL.Models
 {
     [Table("Directors")]
-	public class Director:BaseEntity
+    public class Director:BaseEntity
 	{
 		public string Name { get; set; } = null!;
         public string Description { get; set; } = null!;
